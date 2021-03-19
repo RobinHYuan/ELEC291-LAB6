@@ -27,7 +27,7 @@ Robin Yuan, 88011879
 11. Makefile is modified to include the new header file created for LAB6 making the source code look more concise
 12. Portable Design; the system does not require any USB connection to operate. Instead, we can use a 9v battery to power the system.
 
-
+------------
 ### This lab is sponsored by Matou Sakura
 
 <img src="https://user-images.githubusercontent.com/68177491/111581768-1a7a1b00-8777-11eb-8804-cf1e24364a15.jpeg" width="627" height="872"/>
