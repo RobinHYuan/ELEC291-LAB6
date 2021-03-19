@@ -45,7 +45,7 @@ Robin Yuan, 88011879
 
 #define	SW1     PORTBbits.RB6  
 
-##### NOTE: 
+#### NOTE: 
 DHT11 and DHT11_OUT shares the same physical pin. However, when sending out the data request from the MCU to the DHT11, the pin is used as a digital output and it writes to the latch. When reading the data from the sensor, the pin is configured as a digital input and the MCU directly reads the data from the port pin.
 
 ------------
