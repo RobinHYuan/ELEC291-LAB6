@@ -32,18 +32,18 @@ Robin Yuan, 88011879
 ### PIN Assignment:
 
 
-#define LCD_RS  LATBbits.LATB2\
-#define LCD_RW  LATBbits.LATB1\
-#define LCD_E   LATBbits.LATB0\
-#define LCD_D4  LATBbits.LATB12\
-#define LCD_D5  LATBbits.LATB13\
-#define LCD_D6  LATBbits.LATB14\
-#define LCD_D7  LATBbits.LATB15
+  #define LCD_RS  LATBbits.LATB2\
+  #define LCD_RW  LATBbits.LATB1\
+  #define LCD_E   LATBbits.LATB0\
+  #define LCD_D4  LATBbits.LATB12\
+  #define LCD_D5  LATBbits.LATB13\
+  #define LCD_D6  LATBbits.LATB14\
+  #define LCD_D7  LATBbits.LATB15
 
-#define DHT11_OUT LATAbits.LATA3\
-#define DHT11     PORTAbits.RA3
+  #define DHT11_OUT LATAbits.LATA3\
+  #define DHT11     PORTAbits.RA3
 
-#define	SW1     PORTBbits.RB6  
+  #define	SW1     PORTBbits.RB6  
 
 #### NOTE: 
 DHT11 and DHT11_OUT shares the same physical pin. However, when sending out the data request from the MCU to the DHT11, the pin is used as a digital output and it writes to the latch. When reading the data from the sensor, the pin is configured as a digital input and the MCU directly reads the data from the port pin.
