@@ -10,15 +10,15 @@ void main()
 {
 	volatile unsigned long t=0;
 
-    float Temp=0,Temp_LM355=0,Temp_DHT11=0,Hum_DHT11=0;
-    float Max_Temp=0,Min_Temp=99,Max_Hum=0,Min_Hum=99;
+    	float Temp=0,Temp_LM355=0,Temp_DHT11=0,Hum_DHT11=0;
+    	float Max_Temp=0,Min_Temp=99,Max_Hum=0,Min_Hum=99;
 	int state = 0;
 	char string [16] = " " ;
 	char percent = '%';
 	
   	Lab6PinConfig();
-    UART2Configure(115200);  // Configure UART2 for a baud rate of 115200
-    ADCConf(); // Configure ADC
+	UART2Configure(115200);  // Configure UART2 for a baud rate of 115200
+    	ADCConf(); // Configure ADC
  	LCD_4BIT();
  	
  	waitms(1000);
