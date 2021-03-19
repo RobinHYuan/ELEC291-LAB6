@@ -50,7 +50,7 @@ DHT11 and DHT11_OUT shares the same physical pin. However, when sending out the 
 
 ------------
 ### System Structure:
-<img src="https://user-images.githubusercontent.com/68177491/111743592-2df4b700-8847-11eb-930a-67bf5d76816b.jpg" width="496" height="663"/>
+<img src="https://user-images.githubusercontent.com/68177491/111743592-2df4b700-8847-11eb-930a-67bf5d76816b.jpg" width="663" height="496"/>
 
 ------------
 ### Matou Sakura is the best girl
