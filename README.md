@@ -49,15 +49,22 @@ Robin Yuan, 88011879
 DHT11 and DHT11_OUT shares the same physical pin. However, when sending out the data request from the MCU to the DHT11, the pin is used as a digital output and it writes to the latch. When reading the data from the sensor, the pin is configured as a digital input and the MCU directly reads the data from the port pin.
 
 ------------
+
 ### System Structure:
 <img src="https://user-images.githubusercontent.com/68177491/111743592-2df4b700-8847-11eb-930a-67bf5d76816b.jpg" width="663" height="496"/>
+
+------------
+
+### Breadboard and Program Flahser Layouts:
+
+<img src="https://user-images.githubusercontent.com/68177491/111744711-e3743a00-8848-11eb-805f-ad25ed122f7c.jpg" width="663" height="496"/>
+<img src="https://user-images.githubusercontent.com/68177491/111744652-c9d2f280-8848-11eb-918d-c04131beacb1.jpg" width="663" height="496"/>
 
 ------------
 ### Software Used:
 WinPython(64-bit for Windows):https://sourceforge.net/projects/winpython/ \
 PuTTY:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
 
-------------
 ### Matou Sakura is the best girl
 
 <img src="https://user-images.githubusercontent.com/68177491/111581768-1a7a1b00-8777-11eb-8804-cf1e24364a15.jpeg" width="627" height="872"/>
