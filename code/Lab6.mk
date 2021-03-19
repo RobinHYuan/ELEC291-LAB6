@@ -1,7 +1,7 @@
 SHELL=cmd
 CC = xc32-gcc
 OBJCPY = xc32-bin2hex
-ARCH = -mprocessor=32MX130F064B
+ARCH = -mprocessor=32MX170F256B
 OBJ = Lab6.o
 PORTN=$(shell type COMPORT.inc)
 HEADER = include/lab6.h 
