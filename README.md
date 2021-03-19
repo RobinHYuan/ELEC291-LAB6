@@ -28,6 +28,27 @@ Robin Yuan, 88011879
 12. Portable Design; the system does not require any USB connection to operate. Instead, we can use a 9v battery to power the system.
 
 ------------
+
+### PIN Assignment:
+
+
+#define LCD_RS  LATBbits.LATB2\
+#define LCD_RW  LATBbits.LATB1\
+#define LCD_E   LATBbits.LATB0\
+#define LCD_D4  LATBbits.LATB12\
+#define LCD_D5  LATBbits.LATB13\
+#define LCD_D6  LATBbits.LATB14\
+#define LCD_D7  LATBbits.LATB15
+
+#define DHT11_OUT LATAbits.LATA3\
+#define DHT11     PORTAbits.RA3
+
+#define	SW1     PORTBbits.RB6  
+
+##### NOTE: 
+DHT11 and DHT11_OUT shares the same physical pin. However, when sending out the data request from the MCU to the DHT11, the pin is used as a digital output and it writes to the latch. When reading the data from the sensor, the pin is configured as a digital input and the MCU directly reads the data from the port pin.
+
+------------
 ### Matou Sakura is the best girl
 
 <img src="https://user-images.githubusercontent.com/68177491/111581768-1a7a1b00-8777-11eb-8804-cf1e24364a15.jpeg" width="627" height="872"/>
