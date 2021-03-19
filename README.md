@@ -22,9 +22,10 @@ Robin Yuan, 88011879
 6. Auto-backlighting circuit is used so that users can read the temperature and humidity with ease in a dark environment
 7. A dedicate program flasher is made to ensure we can utlize as many pins as possible
 8. Improved algorithm that combines both sensors' readings provides better results
-9. PIC32MX170F256B is used providing high comuting spped.
+9. PIC32MX170F256B is used providing a higher comuting speed.
 10. Labeled axis for the stip chart
-11. Portable Design; the system does not require any USB connection to operate. Instead, we can use a 9v battery to power the system.
+11. Makefile is modified to include the new header file created for LAB6 making the source code look more concise
+12. Portable Design; the system does not require any USB connection to operate. Instead, we can use a 9v battery to power the system.
 
 
 ### This lab is sponsored by Matou Sakura
