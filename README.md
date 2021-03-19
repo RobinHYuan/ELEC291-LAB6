@@ -28,6 +28,6 @@ Robin Yuan, 88011879
 12. Portable Design; the system does not require any USB connection to operate. Instead, we can use a 9v battery to power the system.
 
 ------------
-### This lab is sponsored by Matou Sakura
+### Matou Sakura is the best girl
 
 <img src="https://user-images.githubusercontent.com/68177491/111581768-1a7a1b00-8777-11eb-8804-cf1e24364a15.jpeg" width="627" height="872"/>
