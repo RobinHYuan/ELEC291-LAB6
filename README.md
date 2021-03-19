@@ -53,6 +53,11 @@ DHT11 and DHT11_OUT shares the same physical pin. However, when sending out the 
 <img src="https://user-images.githubusercontent.com/68177491/111743592-2df4b700-8847-11eb-930a-67bf5d76816b.jpg" width="663" height="496"/>
 
 ------------
+### Software Used:
+WinPython(64-bit for Windows):https://sourceforge.net/projects/winpython/ \
+PuTTY:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
+
+------------
 ### Matou Sakura is the best girl
 
 <img src="https://user-images.githubusercontent.com/68177491/111581768-1a7a1b00-8777-11eb-8804-cf1e24364a15.jpeg" width="627" height="872"/>
