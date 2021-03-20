@@ -11,6 +11,10 @@ Jerry Shao, 84982321 \
 Robin Yuan, 88011879
 
 ------------
+Here is our demo on YouTube:
+https://www.youtube.com/watch?v=cQY7_f_0TRY
+
+------------
 
 ### Extra Features:
 
